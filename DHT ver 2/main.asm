@@ -25,7 +25,7 @@
 				.DEF USART_BytesN=R19		; переменная - сколько байт отправить в USART
 				.DEF Tmp3=R20
 				.DEF Cycle_Count=R21		; счетчик циклов в Expect_X
-				.DEF ERR_CODE=R22			; возврат ошибок из подпрограмм
+				.DEF ERR_CODE=R22			; возврат ошибок из подпрограммы
 				.DEF N_Cycles=R23			; счетчик в READ_CYCLES
 				.DEF ACCUM=R24
 				.DEF Tmp4=R25
