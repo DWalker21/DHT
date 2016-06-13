@@ -2,7 +2,7 @@
 ; DHT ver 2.asm
 ;
 ; Created: 06.05.2016 18:15:40
-; Author : Richard Smith
+; Author : Richard Smith 
 ;
 ; Читаем данные с датчика DHT11 и отправляем в USART
 ; с периодичностью около 1 раз в секунду
