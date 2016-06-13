@@ -524,7 +524,7 @@ RESET:			NOP
 				RCALL COPY_STRINGS		; скопировали данные в RAM
 				RCALL TEST_DATA			; подготовили тестовые данные
 
-loop:			NOP						; крутисся в вечном цикле ....
+loop:			NOP						; крутимся в вечном цикле ....
 				; External Hardware Init
 				RCALL DHT_INIT
 				; получили здесь подтверждение контроллера и надо в темпе читать биты
